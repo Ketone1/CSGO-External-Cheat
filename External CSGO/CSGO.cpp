@@ -46,10 +46,10 @@ INT APIENTRY WinMain(HINSTANCE instance, HINSTANCE, PSTR, INT cmd_show) {
         return FALSE;
     }
 
-    FILE* file{ nullptr };
-    freopen_s(&file, "CONIN$", "r", stdin);
-    freopen_s(&file, "CONOUT$", "w", stdout);
-    freopen_s(&file, "CONOUT$", "w", stderr);*/
+    FILE* f{ nullptr };
+    freopen_s(&f, "CONIN$", "r", stdin);
+    freopen_s(&f, "CONOUT$", "w", stdout);
+    freopen_s(&f, "CONOUT$", "w", stderr);*/
 
     std::string random_str = Memory::RandomString(100);
 
