@@ -4,3 +4,5 @@ Just a basic external cheat I stopped to work on a month or two ago. Its poorly 
 Image of how it looked before it broke:
 
 ![image](https://user-images.githubusercontent.com/104397928/218289539-ccbcd076-d2bd-4bcc-ace6-8b33c5fb85c6.png)
+
+If your wondering why some things I define as DWORDs and some I define as uintptr_t its because I started doing dwords but I overall like uintptr_t better just because it looks better. So I missed some
