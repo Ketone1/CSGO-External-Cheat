@@ -269,7 +269,7 @@ INT APIENTRY WinMain(HINSTANCE instance, HINSTANCE, PSTR, INT cmd_show) {
         {
             ImGui::Begin("Spectators", &isActive, ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMouseInputs);
             {
-                for (int i = 0; i < 32; i++)
+                for (int i = 0; i < GlobalVars.maxClients; i++)
                 {
                     const auto entity = Memory::Read<uintptr_t>(client + offsets::dwEntityList + i * 0x10);
 
