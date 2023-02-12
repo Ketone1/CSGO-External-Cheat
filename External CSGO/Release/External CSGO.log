@@ -1,0 +1,9 @@
+﻿  CSGO.cpp
+C:\Users\hunte\source\repos\External CSGO\External CSGO\memory.hpp(15,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hunte\source\repos\External CSGO\External CSGO\math.hpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating code
+  1 of 1745 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    20 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  External CSGO.vcxproj -> C:\Users\hunte\source\repos\External CSGO\Release\External CSGO.exe
